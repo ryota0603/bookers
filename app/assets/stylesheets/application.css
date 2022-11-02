@@ -13,11 +13,26 @@
  *= require_tree .
  *= require_self
  */
-form {
-    display: block;
-    margin-top: 0em;
+th {
+    padding-bottom: 5px;
+}
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
+
+a:visited {
+    color: #666;
+}
+
+a {
+    color: #000;
+}
+
+
+ 
 body {
     background-color: #fff;
     color: #333;
@@ -26,3 +41,19 @@ body {
     line-height: 18px;
     margin: 33px;
 }
+
+p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+label {
+    display: block;
+}
+
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+
